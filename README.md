@@ -36,9 +36,9 @@ git clone https://github.com/OctopusInTheKitchenSink/Matrix_cpp.git
 cd Matrix_cpp/src
 make s21_matrix_oop.a
 
-# для подключения билиотеки к своему файлу, подключите заголовочный файл s21_matrix_oop.h,
+# для подключения библиотеки к своему файлу, подключите заголовочный файл s21_matrix_oop.h,
 # указав корректные пути
-# при компиляции подключайте динамическую библиотеку. Пример:
+# при компиляции подключайте статическую библиотеку. Пример:
 
 g++ -Wall -Werror -Wextra -std=c++20 Your_file.cpp s21_matrix_oop.a
 ./a.out
